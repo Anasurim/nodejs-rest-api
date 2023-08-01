@@ -5,6 +5,8 @@ const updateById = require("./updateById");
 const updateFavorite = require("./updateFavorite");
 const deleteContact = require("./deleteContact");
 
+const register = require("./auth");
+
 module.exports = {
   getAll,
   getById,
@@ -12,4 +14,5 @@ module.exports = {
   deleteContact,
   updateById,
   updateFavorite,
+  register,
 };

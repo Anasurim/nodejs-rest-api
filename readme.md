@@ -3,3 +3,4 @@
 - express
 - mongo db
 - mongoose
+- crud methods to work with contacts
