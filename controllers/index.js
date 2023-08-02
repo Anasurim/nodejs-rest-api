@@ -7,6 +7,8 @@ const deleteContact = require("./deleteContact");
 
 const register = require("./auth");
 const login = require("./login");
+const getCurrent = require("./getCurrent");
+const logout = require("./logout");
 
 module.exports = {
   getAll,
@@ -17,4 +19,6 @@ module.exports = {
   updateFavorite,
   register,
   login,
+  getCurrent,
+  logout,
 };
