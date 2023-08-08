@@ -22,7 +22,7 @@ const sendEmail = async (data) => {
       from: "cliffcrystall@gmail.com",
       to: data.to,
       subject: data.subject,
-      text: data.text,
+      html: data.html,
     });
 
     console.log("Email sent success");
