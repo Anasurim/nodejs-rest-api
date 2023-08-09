@@ -11,6 +11,9 @@ const getCurrent = require("./getCurrent");
 const logout = require("./logout");
 const updateAvatar = require("./updateAvatar");
 
+const verifyEmail = require("./verifyEmail");
+const resendVerifyEmail = require("./resendVerifyEmail");
+
 module.exports = {
   getAll,
   getById,
@@ -23,4 +26,6 @@ module.exports = {
   getCurrent,
   logout,
   updateAvatar,
+  verifyEmail,
+  resendVerifyEmail,
 };
